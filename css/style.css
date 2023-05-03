@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@keyframes colors {
+    0% {
+        background: rgba(255, 0, 0, 0.26);
+    }
+    25% {
+        background: rgba(0, 0, 255, 0.233);
+    }
+    50% {
+        background: rgba(255, 255, 0, 0.178);
+    }
+    75% {
+        background: rgba(0, 128, 0, 0.185);
+    }
+    100% {
+        background: rgba(255, 0, 0, 0.192);
+    }
+}
+body {
+    animation: colors 6s infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.canvas {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.buttons {
+    margin-top: 50px;
+}
+button {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    border-radius: 30px;
+}
+#figure1{
+    position: absolute;
+    height: 163px;
+    width: 163px;
+    transform: rotate(45deg);
+    background-color: red;
+    top:168px;
+    left:55px
+}
+#figure2{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 230px 230px 230px;
+    border-color: transparent transparent green transparent;
+    bottom: 21px;
+    left: 21px;
+}
+#figure3{
+    position: absolute;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 115px solid transparent;
+    border-bottom : 115px solid transparent;
+    border-left : 115px solid cyan;
+    left: 21.5px;
+    top: 249.5px;
+}
+#figure4{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 115px 115px 0 115px;
+    border-color: orange transparent transparent transparent;
+    top:135px;
+    left: 136px;
+}
+#figure5{
+    position: absolute;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 230px solid transparent;
+    border-right : 230px solid darkgoldenrod;
+    border-bottom : 230px solid transparent;
+    right: 20px;
+    top: 20px;
+}
+#figure6{
+    position: absolute;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 230px solid greenyellow;
+    border-right : 230px solid transparent;
+    top: 20px;
+    left: 21px;
+   
+}
+#figure7{
+    position: absolute;
+    width: 230px;
+	height: 115px;
+    transform: skew(-45deg);
+	background:darkblue;
+    top: 20px;
+    left: 193.5px;
+}
