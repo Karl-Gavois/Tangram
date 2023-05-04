@@ -1,5 +1,20 @@
 .red{
-    position: absolute;
     right:22px;
     top: 40px;
+}
+.yellow{
+    right: 18px;
+}
+.blue{
+    right: 10px;
+    top: 35px;
+    transform: rotate(45deg);
+}
+.green{
+    top: 0;
+    left: 0;
+}
+.brown{
+    right: 10px;
+    top: 50px;
 }
