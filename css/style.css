@@ -3,6 +3,29 @@
     padding: 0;
 }
 
+@keyframes colors {
+    0% {
+        background: rgba(255, 0, 0, 0.26);
+    }
+
+    25% {
+        background: rgba(0, 0, 255, 0.233);
+    }
+
+    50% {
+        background: rgba(255, 255, 0, 0.178);
+    }
+
+    75% {
+        background: rgba(0, 128, 0, 0.185);
+    }
+
+    100% {
+        background: rgba(255, 0, 0, 0.192);
+    }
+
+}
+
 
 body {
     animation: colors 6s infinite;
@@ -15,8 +38,8 @@ body {
 }
 
 .canvas {
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 1000px;
     border-radius: 10px;
     border: 1px solid;
     background-color: white;
