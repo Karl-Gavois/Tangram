@@ -1,4 +1,4 @@
-.red{ 
+.red .pyramide{ 
     position: absolute;
     top:502px;
     left: 313px;
@@ -6,7 +6,7 @@
     border-right: 150px solid transparent;
     transform: rotate(180deg); 
 }
-.green{
+.green .pyramide{
     position: absolute;
     top: 576px;
     right: 350px;
@@ -17,7 +17,7 @@
     -ms-transform: skew(-45deg, 0deg);
     transform: skew(-45deg, 0deg);
 }
-.blue{
+.blue .pyramide{
 position: absolute; 
     top: 540px;
     right: 140px;
@@ -26,7 +26,7 @@ position: absolute;
     border-top: 150px solid transparent;
     border-bottom: 150px solid transparent;
 }
-.yellow{
+.yellow .pyramide{
     position: absolute;
     transform: rotate(225deg);
     left: 603px;
@@ -35,7 +35,7 @@ position: absolute;
     border-top: 150px solid transparent;
     border-bottom: 150px solid transparent;
 }
-.purple{
+.purple .pyramide{
     position: absolute;
     left: 537px;
     bottom: 279px;
@@ -44,7 +44,7 @@ position: absolute;
     border-right: 76px solid transparent;
     transform: rotate(180deg); 
 }
-.brown{
+.brown .pyramide{
     position: absolute;
     left: 508px;
     bottom: 279px;
@@ -63,7 +63,7 @@ position: absolute;
     -o-transform-origin: 0 100%;
     transform-origin: 0 100%;
 }
-.orange{
+.orange .pyramide{
     position: absolute;
     transform: rotate(270deg);
     left: 426px;

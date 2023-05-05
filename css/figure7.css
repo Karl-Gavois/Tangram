@@ -1,21 +1,21 @@
-.red{ 
+.red.squirel{ 
     transform:translate(-90px,1px)rotate(225deg);
 }
-.green{
+.green.squirel{
     width: 106px;
     height: 100px;
     transform : skew(45deg, 0deg)translate(300px,-200px) rotate(270deg);
 }
-.blue{ 
+.blue.squirel{ 
     transform:translate(-46px,-74px) rotate(90deg);
 }
-.yellow{
+.yellow.squirel{
     transform: translate(-144px,159px)rotate(-45deg);
 }
-.purple{
+.purple.squirel{
     transform: translate(-283px,25px) rotate(110deg);
 }
-.brown{
+.brown.squirel{
     /* Rotate */
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -29,6 +29,6 @@
     -o-transform-origin: 0 100%;
     transform-origin: 0 100%;
 }
-.orange{
+.orange.squirel{
     transform:translate(-261px,150px)rotate(65deg);
 }
