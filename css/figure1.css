@@ -1,19 +1,19 @@
-.red{ 
+.red.square{ 
     transform:translate(-140px,-64px);
 }
-.green{
+.green.square{
     transform: translate(-28px,-102px) skew(-45deg);
 }
-.blue{ 
+.blue.square{ 
     transform:translate(-65px,85px) rotate(90deg);
 }
-.yellow{
+.yellow.square{
     transform: translate(10px,10px);
 }
-.purple{
+.purple.square{
     transform: translate(-176px,85px) rotate(270deg);
 }
-.brown{
+.brown.square{
     /* Rotate */
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -27,6 +27,6 @@
     -o-transform-origin: 0 100%;
     transform-origin: 0 100%;
 }
-.orange{
+.orange.square{
     transform: translate(-64px,-27px);
 }
