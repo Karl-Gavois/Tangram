@@ -1,32 +1,25 @@
 .red{ 
-    top:150px;
-    left: 301px;
+    transform:translate(-140px,-64px);
 }
 .green{
-    top: 150px;
-    right: 435px;
+    transform: translate(-28px,-102px) skew(-45deg);
 }
 .blue{ 
-    top: 151px;
-    right: 399px;
+    transform:translate(-65px,85px) rotate(90deg);
 }
 .yellow{
-    left: 375px;
-    bottom: 105px;
+    transform: translate(10px,10px);
 }
 .purple{
-    left: 375px;
-    bottom: 329px;
+    transform: translate(-176px,85px) rotate(270deg);
 }
 .brown{
-    left: 346px;
-    bottom: 255px;
     /* Rotate */
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    transform: rotate(-45deg)translate(-93px,-50px);
     /* Rotate Origin */
     -webkit-transform-origin: 0 100%;
     -moz-transform-origin: 0 100%;
@@ -35,7 +28,5 @@
     transform-origin: 0 100%;
 }
 .orange{
-    transform: rotate(-90deg);
-    left: 263px;
-    bottom: 218px;
+    transform: translate(-64px,-27px);
 }
