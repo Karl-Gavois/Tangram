@@ -1,30 +1,30 @@
 
 .red{ 
-    transform: translate(437px,286px) rotate(45deg);
+    transform: translate(17px,-64px) rotate(45deg);
 }
 
 .green{
     width: 106px; 
     height: 100px;
-    transform: translate(560px,361px) skew(45deg, 0deg);
+    transform: translate(120px,-14px) skew(45deg, 0deg);
 }
 
 .blue{
-    transform: translate(385px,371px) rotate(225deg);
+    transform: translate(-36px,96px) rotate(225deg);
 }
 
 .yellow{
-    transform: translate(491px,371px) rotate(-45deg);
+    transform: translate(70px,96px) rotate(-45deg);
 }
 
 .purple{
-    transform: translate(305px,402px) rotate(-45deg);
+    transform: translate(-115px,16px) rotate(-45deg);
 }
 
 .brown{
-    transform: translate(430px,570px);
+    transform: translate(0px,200px);
 }
 
 .orange{
-    transform: translate(360px,350px) rotate(-225deg);
+    transform: translate(-62px,-37px) rotate(-225deg);
  }
