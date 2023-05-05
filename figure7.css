@@ -1,1 +1,34 @@
-cccccc
+.red{ 
+    transform:translate(-90px,1px)rotate(225deg);
+}
+.green{
+    width: 106px;
+    height: 100px;
+    transform : skew(45deg, 0deg)translate(300px,-200px) rotate(270deg);
+}
+.blue{ 
+    transform:translate(-46px,-74px) rotate(90deg);
+}
+.yellow{
+    transform: translate(-144px,159px)rotate(-45deg);
+}
+.purple{
+    transform: translate(-283px,25px) rotate(110deg);
+}
+.brown{
+    /* Rotate */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg)translate(137px,-43px);
+    /* Rotate Origin */
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+.orange{
+    transform:translate(-261px,150px)rotate(65deg);
+}
