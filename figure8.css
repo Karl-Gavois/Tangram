@@ -1,23 +1,23 @@
-.red{
+.red.cat{
     transform: translate(47px,-33px) rotate(-225deg);
 }
-.green{
+.green.cat{
     transform:translate(-206px,170px) skew(45deg);
     width: 100px;
     height: 106px;
 }
-.blue{
+.blue.cat{
     transform: translate(-50px,170px) rotate(-45deg);
 }
-.yellow{
+.yellow.cat{
     transform: translate(-28px,11px);
 }
-.purple{
+.purple.cat{
     transform: translate(10px,-286px) rotate(-90deg);
 }
-.brown{
+.brown.cat{
     transform: translate(33px,-214px) rotate(45deg);
 }
-.orange{
+.orange.cat{
     transform: translate(85px,-287px) rotate(90deg);
 }

@@ -15,14 +15,36 @@ var orange  = document.querySelector(".orange");
 
 
 btnOne.addEventListener("click", function() {
-        red.setAttribute('class','figure red square')
-        green.setAttribute('class','figure green square')
-        blue.setAttribute('class','figure blue square')
-        yellow.setAttribute('class','figure yellow square')
-        purple.setAttribute('class','figure purple square')
-        brown.setAttribute('class','figure brown square')
-        orange.setAttribute('class','figure orange square')
-      }
-    );
+    red.setAttribute('class','figure red square')
+    green.setAttribute('class','figure green square')
+    blue.setAttribute('class','figure blue square')
+    yellow.setAttribute('class','figure yellow square')
+    purple.setAttribute('class','figure purple square')
+    brown.setAttribute('class','figure brown square')
+    orange.setAttribute('class','figure orange square')
+    }
+);
+
+btnEight.addEventListener("click", function() {
+    red.setAttribute('class','figure red cat')
+    green.setAttribute('class','figure green cat')
+    blue.setAttribute('class','figure blue cat')
+    yellow.setAttribute('class','figure yellow cat')
+    purple.setAttribute('class','figure purple cat')
+    brown.setAttribute('class','figure brown cat')
+    orange.setAttribute('class','figure orange cat')
+    }
+);
+
+btnNine.addEventListener("click", function() {
+    red.setAttribute('class','figure red dof1')
+    green.setAttribute('class','figure green dof1')
+    blue.setAttribute('class','figure blue dof1')
+    yellow.setAttribute('class','figure yellow dof1')
+    purple.setAttribute('class','figure purple dof1')
+    brown.setAttribute('class','figure brown dof1')
+    orange.setAttribute('class','figure orange dof1')
+    }
+);
 
 
