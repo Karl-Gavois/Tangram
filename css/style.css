@@ -44,6 +44,9 @@ body {
     border: 1px solid;
     background-color: white;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .buttons {
