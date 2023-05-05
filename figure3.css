@@ -1,1 +1,27 @@
-fezfez
+.red{ 
+    transform: translate(48px,263px);
+}
+
+.green{
+    transform: translate(87px,300px) skew(-45deg, 0deg);
+}
+
+.blue{
+    transform: translate(132px,136px) rotate(225deg);
+}
+
+.yellow{
+    transform: translate(110px,-22px) rotate(180deg);
+}
+
+.purple{
+    transform: translate(200px,300px) rotate(180deg);
+}
+
+.brown{
+    transform: translate(-50px,-168px) rotate(65deg);
+}
+
+.orange{
+    transform: translate(10px,0px) rotate(225deg);
+ }
