@@ -1,0 +1,37 @@
+.red{
+    right:87px;
+    top: 319px;
+    transform: rotate(-225deg);
+}
+.green{
+    top: 542px;
+    right: 365px;
+    transform: skew(45deg);
+    width: 100px;
+    height: 106px;
+}
+.blue{
+    right: 184px;
+    top: 445px;
+    transform: rotate(-45deg);
+}
+.yellow{
+    right: 162px;
+    transform: rotate(0deg);
+    top: 286px;
+}
+.purple{
+    transform: rotate(-90deg);
+    right: 125px;
+    top: 100px;
+}
+.brown{
+    right: 110px;
+    top: 157px;
+    transform: rotate(45deg);
+}
+.orange{
+    transform: rotate(90deg);
+    right:51px;
+    top: 100px;
+}
