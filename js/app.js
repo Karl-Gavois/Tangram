@@ -15,7 +15,7 @@ var orange  = document.querySelector(".orange");
 var buttons2 = document.createElement("div");
 
 
-buttons2.innerHTML = "<button> Chat <button> Dophin <button> 10  <button> 11 <button> Mystère Karl <button> 13"
+buttons2.innerHTML = "<button> Chat <button> Dophin <button> 10  <button> Mystère Eric <button> Mystère Karl <button> 13"
 buttons2.id ="addbuttons";
 
 // Get all the buttons inside buttons2
@@ -41,7 +41,7 @@ document.getElementsByTagName('head')[0].insertAdjacentHTML(
 
 document.getElementsByTagName('head')[0].insertAdjacentHTML(
     'beforeend',
-    '<link rel="stylesheet" href="css/.css" />');
+    '<link rel="stylesheet" href="css/figureeric.css" />');
 
 document.getElementsByTagName('head')[0].insertAdjacentHTML(
     'beforeend',
@@ -160,13 +160,13 @@ button13.addEventListener("click", function() {
     }
 );
 button14.addEventListener("click", function() {
-    red.setAttribute('class','figure red dof1')
-    green.setAttribute('class','figure green dof1')
-    blue.setAttribute('class','figure blue dof1')
-    yellow.setAttribute('class','figure yellow dof1')
-    purple.setAttribute('class','figure purple dof1')
-    brown.setAttribute('class','figure brown dof1')
-    orange.setAttribute('class','figure orange dof1')
+    red.setAttribute('class','figure red CMM')
+    green.setAttribute('class','figure green CMM')
+    blue.setAttribute('class','figure blue CMM')
+    yellow.setAttribute('class','figure yellow CMM')
+    purple.setAttribute('class','figure purple CMM')
+    brown.setAttribute('class','figure brown CMM')
+    orange.setAttribute('class','figure orange CMM')
     }
 );
 button15.addEventListener("click", function() {
