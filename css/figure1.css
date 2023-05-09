@@ -62,5 +62,6 @@
 }
 
 @keyframes car7{
+    0%{}
     100%{transform: translate(-64px,-27px);}
 }
