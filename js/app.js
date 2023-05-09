@@ -29,12 +29,12 @@ button4.innerHTML = "12";
 button5.innerHTML = "13";
 
 // Ajoute une classe au bouton
-button.className = "mon-bouton";
-button1.className = "mon-bouton1";
-button2.className = "mon-bouton2";
-button3.className = "mon-bouton3";
-button4.className = "mon-bouton4";
-button5.className = "mon-bouton5";
+button.id = "mon-bouton";
+button1.id = "mon-bouton1";
+button2.id = "mon-bouton2";
+button3.id = "mon-bouton3";
+button4.id = "mon-bouton4";
+button5.id = "mon-bouton5";
 
 // Ajoute le bouton au corps du document
 document.body.appendChild(button);
