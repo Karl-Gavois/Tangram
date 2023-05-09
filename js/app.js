@@ -15,7 +15,7 @@ var orange  = document.querySelector(".orange");
 var buttons2 = document.createElement("div");
 
 
-buttons2.innerHTML = "<button> 8 <button> 9 <button> 10  <button> 11 <button> 12 <button> 13"
+buttons2.innerHTML = "<button> Chat <button> Dophin <button> 10  <button> 11 <button> Mystère Karl <button> 13"
 buttons2.id ="addbuttons";
 
 // Get all the buttons inside buttons2
@@ -23,7 +23,7 @@ var buttons = buttons2.getElementsByTagName("button");
 
 // Loop through the buttons and set their ids
 for (var i = 0; i < buttons.length; i++) {
-  buttons[i].id = "button-1" + (i+1);
+  buttons[i].id = "button1" + (i+1);
 }
 
 //Ajoute feuilles de style
@@ -45,7 +45,7 @@ document.getElementsByTagName('head')[0].insertAdjacentHTML(
 
 document.getElementsByTagName('head')[0].insertAdjacentHTML(
     'beforeend',
-    '<link rel="stylesheet" href="css/.css" />');
+    '<link rel="stylesheet" href="css/figurekarl.css" />');
 
 document.getElementsByTagName('head')[0].insertAdjacentHTML(
     'beforeend',
@@ -128,7 +128,7 @@ btnSeven.addEventListener("click", function() {
     }
 );
 
-btnEight.addEventListener("click", function() {
+button11.addEventListener("click", function() {
     red.setAttribute('class','figure red cat')
     green.setAttribute('class','figure green cat')
     blue.setAttribute('class','figure blue cat')
@@ -139,7 +139,7 @@ btnEight.addEventListener("click", function() {
     }
 );
 
-btnNine.addEventListener("click", function() {
+button12.addEventListener("click", function() {
     red.setAttribute('class','figure red dof1')
     green.setAttribute('class','figure green dof1')
     blue.setAttribute('class','figure blue dof1')
@@ -149,4 +149,43 @@ btnNine.addEventListener("click", function() {
     orange.setAttribute('class','figure orange dof1')
     }
 );
-
+button13.addEventListener("click", function() {
+    red.setAttribute('class','figure red dof1')
+    green.setAttribute('class','figure green dof1')
+    blue.setAttribute('class','figure blue dof1')
+    yellow.setAttribute('class','figure yellow dof1')
+    purple.setAttribute('class','figure purple dof1')
+    brown.setAttribute('class','figure brown dof1')
+    orange.setAttribute('class','figure orange dof1')
+    }
+);
+button14.addEventListener("click", function() {
+    red.setAttribute('class','figure red dof1')
+    green.setAttribute('class','figure green dof1')
+    blue.setAttribute('class','figure blue dof1')
+    yellow.setAttribute('class','figure yellow dof1')
+    purple.setAttribute('class','figure purple dof1')
+    brown.setAttribute('class','figure brown dof1')
+    orange.setAttribute('class','figure orange dof1')
+    }
+);
+button15.addEventListener("click", function() {
+    red.setAttribute('class','figure red karl')
+    green.setAttribute('class','figure green karl')
+    blue.setAttribute('class','figure blue karl')
+    yellow.setAttribute('class','figure yellow karl')
+    purple.setAttribute('class','figure purple karl')
+    brown.setAttribute('class','figure brown karl')
+    orange.setAttribute('class','figure orange karl')
+    }
+);
+button16.addEventListener("click", function() {
+    red.setAttribute('class','figure red dof1')
+    green.setAttribute('class','figure green dof1')
+    blue.setAttribute('class','figure blue dof1')
+    yellow.setAttribute('class','figure yellow dof1')
+    purple.setAttribute('class','figure purple dof1')
+    brown.setAttribute('class','figure brown dof1')
+    orange.setAttribute('class','figure orange dof1')
+    }
+);
