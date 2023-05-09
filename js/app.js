@@ -15,7 +15,7 @@ var orange  = document.querySelector(".orange");
 var buttons2 = document.createElement("div");
 
 
-buttons2.innerHTML = "<button> Chat <button> Dophin <button> 10  <button> 11 <button> Mystère Karl <button> 13"
+buttons2.innerHTML = "<button> Chat <button> Dauphin <button> 10  <button> 11 <button> Mystère Karl <button> 13"
 buttons2.id ="addbuttons";
 
 // Get all the buttons inside buttons2
