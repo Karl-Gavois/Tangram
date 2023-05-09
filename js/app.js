@@ -22,7 +22,7 @@ btnFive.innerHTML = "Pipe"
 btnSix.innerHTML = "Pyramide"
 btnSeven.innerHTML = "Ecureuil"
 
-buttons2.innerHTML = "<button> Chat <button> Dauphin <button> 10  <button> 11 <button> Mystère Karl <button> 13"
+buttons2.innerHTML = "<button> Chat <button> Dauphin <button> 10  <button> Mystère Eric <button> Mystère Karl <button> 13"
 buttons2.id ="addbuttons";
 
 // Get all the buttons inside buttons2
