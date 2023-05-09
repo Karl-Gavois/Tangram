@@ -1,16 +1,16 @@
 .red.pyramide{ 
-    animation : pyr1 0.5s linear both alternate;
+    animation : pyr1 1s linear both alternate;
 }
 
 @keyframes pyr1{
     0%{transform:translate(-140px,-64px);}
-    100%{transform:translate(-188px,83px) rotate(180deg);
+    100%{transform:translate(-186px,83px) rotate(180deg);
         border-top: 150px solid rgb(228, 22, 22); 
         border-right: 150px solid transparent;}
 }
 
 .green.pyramide{
-    animation : pyr2 0.5s linear both alternate;
+    animation : pyr2 1s linear both alternate;
 }
 
 @keyframes pyr2 {
