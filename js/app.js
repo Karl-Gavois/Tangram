@@ -14,8 +14,15 @@ var brown  = document.querySelector(".brown");
 var orange  = document.querySelector(".orange");
 var buttons2 = document.createElement("div");
 
+btnOne.innerHTML = "Carré"
+btnTwo.innerHTML = "Sapin"
+btnThree.innerHTML = "Prière"
+btnFour.innerHTML = "Petit Chinois"
+btnFive.innerHTML = "Pipe"
+btnSix.innerHTML = "Pyramide"
+btnSeven.innerHTML = "Ecureuil"
 
-buttons2.innerHTML = "<button> Chat <button> Dophin <button> Mystère Alex <button> Mystère Eric <button> Mystère Karl <button> 13"
+buttons2.innerHTML = "<button> Chat <button> Dophin <button> Mystère Alex <button> Mystère Eric <button> Mystère Karl <button> mystère Morgan"
 buttons2.id ="addbuttons";
 
 // Get all the buttons inside buttons2
@@ -49,7 +56,7 @@ document.getElementsByTagName('head')[0].insertAdjacentHTML(
 
 document.getElementsByTagName('head')[0].insertAdjacentHTML(
     'beforeend',
-    '<link rel="stylesheet" href="css/.css" />');
+    '<link rel="stylesheet" href="css/figuremorgan.css" />');
 
 // Ajoute le bouton au corps du document
 document.body.appendChild(buttons2);
@@ -180,12 +187,12 @@ button15.addEventListener("click", function() {
     }
 );
 button16.addEventListener("click", function() {
-    red.setAttribute('class','figure red dof1')
-    green.setAttribute('class','figure green dof1')
-    blue.setAttribute('class','figure blue dof1')
-    yellow.setAttribute('class','figure yellow dof1')
-    purple.setAttribute('class','figure purple dof1')
-    brown.setAttribute('class','figure brown dof1')
-    orange.setAttribute('class','figure orange dof1')
+    red.setAttribute('class','figure red lievre')
+    green.setAttribute('class','figure green lievre')
+    blue.setAttribute('class','figure blue lievre')
+    yellow.setAttribute('class','figure yellow lievre')
+    purple.setAttribute('class','figure purple lievre')
+    brown.setAttribute('class','figure brown lievre')
+    orange.setAttribute('class','figure orange lievre')
     }
 );
