@@ -60,3 +60,32 @@ button {
     width: 150px;
     border-radius: 30px;
 }
+#mon-bouton{
+    position: absolute;
+    bottom: 10px;
+    left: 294px;
+}
+#mon-bouton1{
+    position: absolute;
+    bottom: 10px;
+    left: 488px;
+}
+#mon-bouton2{
+    position: absolute;
+    bottom: 10px;
+    left: 684px;
+}
+#mon-bouton3{
+    position: absolute;
+    bottom: 10px;
+}
+#mon-bouton4{
+    position: absolute;
+    bottom: 10px;
+    left: 1073px;
+}
+#mon-bouton5{
+    position: absolute;
+    bottom: 10px;
+    left: 1269px;
+}

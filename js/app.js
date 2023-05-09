@@ -12,7 +12,37 @@ var yellow  = document.querySelector(".yellow");
 var purple  = document.querySelector(".purple");
 var brown  = document.querySelector(".brown");
 var orange  = document.querySelector(".orange");
+// Crée un élément de bouton
+var button = document.createElement("button");
+var button1 = document.createElement("button");
+var button2 = document.createElement("button");
+var button3 = document.createElement("button");
+var button4 = document.createElement("button");
+var button5 = document.createElement("button");
 
+// Ajoute du texte au bouton
+button.innerHTML = "8";
+button1.innerHTML = "9";
+button2.innerHTML = "10";
+button3.innerHTML = "11";
+button4.innerHTML = "12";
+button5.innerHTML = "13";
+
+// Ajoute une classe au bouton
+button.id = "mon-bouton";
+button1.id = "mon-bouton1";
+button2.id = "mon-bouton2";
+button3.id = "mon-bouton3";
+button4.id = "mon-bouton4";
+button5.id = "mon-bouton5";
+
+// Ajoute le bouton au corps du document
+document.body.appendChild(button);
+document.body.appendChild(button1);
+document.body.appendChild(button2);
+document.body.appendChild(button3);
+document.body.appendChild(button4);
+document.body.appendChild(button5);
 
 btnOne.addEventListener("click", function() {
     red.setAttribute('class','figure red square')
