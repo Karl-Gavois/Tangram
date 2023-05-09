@@ -26,6 +26,31 @@ for (var i = 0; i < buttons.length; i++) {
   buttons[i].id = "button-1" + (i+1);
 }
 
+//Ajoute feuilles de style
+document.getElementsByTagName('head')[0].insertAdjacentHTML(
+    'beforeend',
+    '<link rel="stylesheet" href="css/figure8.css" />');
+
+document.getElementsByTagName('head')[0].insertAdjacentHTML(
+    'beforeend',
+    '<link rel="stylesheet" href="css/figure9.css" />');
+
+document.getElementsByTagName('head')[0].insertAdjacentHTML(
+    'beforeend',
+    '<link rel="stylesheet" href="css/.css" />');
+
+document.getElementsByTagName('head')[0].insertAdjacentHTML(
+    'beforeend',
+    '<link rel="stylesheet" href="css/.css" />');
+
+document.getElementsByTagName('head')[0].insertAdjacentHTML(
+    'beforeend',
+    '<link rel="stylesheet" href="css/.css" />');
+
+document.getElementsByTagName('head')[0].insertAdjacentHTML(
+    'beforeend',
+    '<link rel="stylesheet" href="css/.css" />');
+
 // Ajoute le bouton au corps du document
 document.body.appendChild(buttons2);
 
