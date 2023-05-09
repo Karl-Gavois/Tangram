@@ -1,27 +1,27 @@
-.red{ 
+.red.PM{ 
     transform: translate(48px,263px);
 }
 
-.green{
+.green.PM{
     transform: translate(87px,300px) skew(-45deg, 0deg);
 }
 
-.blue{
+.blue.PM{
     transform: translate(132px,136px) rotate(225deg);
 }
 
-.yellow{
+.yellow.PM{
     transform: translate(110px,-22px) rotate(180deg);
 }
 
-.purple{
+.purple.PM{
     transform: translate(200px,300px) rotate(180deg);
 }
 
-.brown{
+.brown.PM{
     transform: translate(-50px,-168px) rotate(65deg);
 }
 
-.orange{
+.orange.PM{
     transform: translate(10px,0px) rotate(225deg);
  }
